@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Happy Birthday!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+
+    <div class="stars" id="stars"></div>
+    <div class="balloons">
+      <div class="balloon b1"></div>
+      <div class="balloon b2"></div>
+      <div class="balloon b3"></div>
+      <div class="balloon b4"></div>
+    </div>
+
+    <div class="birthday-header">
+      <div class="hb-top">🎉 Happy Birthday 🎉</div>
+      <div class="hb-name">User!</div>
+      <div class="hb-sub">Tap the white icing to add candles</div>
+    </div>
+
+    <div class="cake-wrapper" id="cakeWrapper">
+      <div class="cake" id="cake">
+        <div class="plate"></div>
+        <div class="layer layer-bottom"></div>
+        <div class="layer layer-middle"></div>
+        <div class="layer layer-top"></div>
+        <div class="icing" id="icing"></div>
+        <div class="drip drip1"></div>
+        <div class="drip drip2"></div>
+        <div class="drip drip3"></div>
+      </div>
+    </div>
+
+    <div class="candle-count-display">
+      🕯️ Candles on the Cake: <span id="candleCount">0</span>
+    </div>
+
+    <div class="mic-area">
+      <button id="micBtn" class="mic-btn">🎤 Enable Mic to Blow</button>
+      <div id="micStatus" class="mic-status"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
